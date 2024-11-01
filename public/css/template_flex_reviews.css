@@ -1,0 +1,127 @@
+.bitcx_utr_container {
+    margin: 50px 0px;
+    user-select: none;
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_template_flex_reviews {
+    display :flex;
+    width: 100%;
+    overflow: hidden;
+    padding : 30px 0px;
+    gap: 10px;
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container {
+    position: relative;
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container {
+   width: 100%;
+   justify-content: space-between;
+   display: flex;
+
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container button {
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+       position: absolute;
+   top: 45%;
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container .bitcx_utr_next {
+    right: 2%;
+    background: #3c404330;
+    height: 50px;
+    width: 30px;
+    padding:0px;
+    margin:0px;
+}
+
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container .bitcx_utr_prev {
+    left:2%;
+    background: #3c404330;
+    height: 50px;
+    width: 30px;
+    padding:0px;
+    margin:0px;
+}
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container .bitcx_utr_prev:hover,
+.bitcx_utr_container .bitcx_utr_template_flex_reviews_container .bitcx_utr_reviews_btn_container .bitcx_utr_next:hover {
+    background: #3c404370;
+}
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review {
+
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 15px;
+  }
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_button_container {
+     text-align: center;
+  }
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_button_container .bitcx_utr_flex_button {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+    margin:10px 0px
+  }
+
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_button_container .bitcx_utr_flex_button:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+}
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_button_container .bitcx_utr_flex_button:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_button_container .bitcx_utr_flex_button:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+  
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-family: math;
+    margin: 30px 0px 0px 0px;
+  }
+.bitcx_utr_template_flex_reviews_container .bitcx_utr_flex_single_review .bitcx_utr_flex_content {
+    font-size: 16px;
+    padding: 0px 5px;
+    text-align: center;
+    font-weight: 400;
+    font-family: math;
+    max-height: 150px;
+    min-height: 150px;
+    overflow: hidden;
+  }
